@@ -2,16 +2,22 @@
 // REVIEW / WARM UP
     // 1. What is the notation for an array? 
     // ANSWER: 
+
     // 2. What is the notation for an object? 
     // ANSWER:
+
     // 3. What is the notation for accessing information in an array? 
     // ANSWER:
+
     // 4. What is the notation for accessing information in an object? 
     // ANSWER:
+
     // 5. What are each of the 'pairs' called in an object?
     // ANSWER:
+
     // 6. How do you set information on a object?
-    // ANSWER
+    // ANSWER:
+
     // 7. BONUS: How does the notation/syntax of key pair values in a standard object differ from that of a constructor function?
     // ANSWER: 
 
@@ -113,8 +119,11 @@
     // h. Print Jane Smith's favorite colors to the console.
     // i. Print Jane Smith's favorite colors in a list. (HINT: You will need to create a for loop or use an array method)
     // j. Create a for loop that prints each person's name, age and favorite colors.
-    // k. BONUS: For all individuals who are younger than 50,  Print the person's name, age and favColors? 
-    // l. BONUS: Print the names of those individuals whose favorite color is blue, and have a name with characters greater than 10 (there are many ways to do this including: forEach, filter,reduce, for loop, if/else conditions, helper functions. . . solve it once with what you know then again while learning something new =D ).
+    // k. BONUS: For all individuals who are younger than 50, print the person's name, age and favColors? 
+    // l. EXTRA BONUS: Print the names of those individuals whose favorite color is blue, and have a name with characters greater than 10 (there are many ways to do this including: forEach, filter, reduce, for loop, if/else conditions, helper functions. . . solve it once with what you know then again while learning something new =D ).
 
+    // What we know:
+
+    // Something new! INCLUDES(), REDUCE()
 // =====================================================
 
