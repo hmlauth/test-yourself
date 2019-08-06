@@ -219,7 +219,7 @@ data.forEach(person => {
     }
 })
 
-// l. BONUS: Print the names of those individuals whose favorite color is blue, and have a name with characters greater than 10 (there are many ways to do this including: forEach, filter, reduce, for loop, if/else conditions, helper functions. . . solve it once with what you know then again while learning something new =D ).
+// l. EXTRA BONUS: Print the names of those individuals whose favorite color is blue, and have a name with characters greater than 10 (there are many ways to do this including: forEach, filter, reduce, for loop, if/else conditions, helper functions. . . solve it once with what you know then again while learning something new =D ).
 
 // What we know:
 
@@ -230,7 +230,29 @@ for ( let i = 0; i < data.length; i++ ) {
 }
 
 // Something new! INCLUDES(), REDUCE()
+// GLOBAL VARIABLES & HELPER FUNCTIONS
+let favColor = 'blue';
+let ageLimit = 10;
+let charLimit = 10;
 
+let isOlderThanAgeLimit = age => age > ageLimit;
+let charactersGreaterThanCharLimit = name => name.length > charLimit;
+let isFavColor = array => array.includes(favColor);
 
+// METHODS
+let RESULT = data.reduce( (accumulator, person)  => {
+    let age = isOlderThanAgeLimit(person.age);
+    let char = charactersGreaterThanCharLimit(person.name);
+    let color = isFavColor(person.favColors);
+    if (age && char && color) {
+        accumulator.push(person.name)
+    }
+
+    return accumulator
+
+}, [] )
+
+// PRINT TO CONSOLE
+RESULT.forEach(person => console.log(`\n${person} has a character length of greater tha ${charLimit}, is older than ${ageLimit}, and has a favorite color of ${favColor}\n`))
 // =====================================================
 
