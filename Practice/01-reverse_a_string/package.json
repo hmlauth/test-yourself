@@ -1,0 +1,18 @@
+{
+  "name": "01-reverse_a_string",
+  "version": "1.0.0",
+  "description": "Write a function that returns the reverse of an input string. Solve this without using built-in array/string functions!",
+  "main": "reverseAString.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
