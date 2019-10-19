@@ -1,1 +1,1 @@
-These problems were provided by Trilogy Education as part of the Full-Stack Bootcamp Curriculum. 
+These logic problems have been given to me and/or adapted from leetcode, codesignal, codewars and project euler. No solutions are provided, however, tests are available in each repo.
