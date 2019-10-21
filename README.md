@@ -13,7 +13,7 @@ Assessments for JavaScript beginners! Gauge what you know and what you don't the
 
 ## How to Use
 1. Clone repo to your local computer
-2. Take assessment of choice.
-3. Review the solutions and compare!
+2. Follow instructions <a href="https://stackoverflow.com/questions/67699/how-to-clone-all-remote-branches-in-git">here</a> for how to access other branches.
+
 
 **Want to Contribute or Revise?** Please feel free to submit a pull request!
