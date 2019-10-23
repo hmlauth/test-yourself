@@ -2,7 +2,35 @@ const letters = ['a', 'b', 'c'];
 // Print a to the console.
 // Print b to the console.
 // Print c to the console.
+
 // Write a for loop that prints each element to the console.
+// Now use .forEach() to produce the same output.
+/*
+^^ Expected Output for Both:
+
+a
+b
+c
+
+*/
+
+// CHALLENGE: "Map" over letters, capitalize each letter, then print the result to the console. 
+/*
+Expected Output
+
+['A','B','C']
+
+*/
+
+// BONUS: Now use a for loop and/or .forEach() to print each capiatlized letter to the console.
+/*
+^^ Expected Output:
+
+A
+B
+C
+
+*/
 
 // ------------------------------------------------------
 
@@ -17,9 +45,46 @@ var person = {
 
 // Print Jane to the console.
 // Print 20 to the console.
-// - Use dot nat
+// Make Jane drink.
+// For both:
+// - Use dot notation
+// - Use bracket notation
+/*
+^^ Expected Output:
+
+Jane
+20
+Jane is drinking.
+
+*/
+
 // Make Jane drink her favorite soda! 
+// (HINT 1: You'll need to modify the console.log inside the drink function.)
+// (HINT 2: How do you reference an object when you're inside it?)
+/*
+Expected Output:
+
+Jane is drinking Coca Cola
+
+*/
+
 // Loop over object and print each property name and value to the console.
+for (const key in person) {
+    console.log(key);
+    console.log(person[key]);
+    person[key]
+}
+/*
+Expected Output:
+
+name
+Jane
+age
+20
+drink
+[Function: drink]
+
+*/
 
 // ------------------------------------------------------
 
